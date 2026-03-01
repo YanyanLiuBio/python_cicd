@@ -7,7 +7,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE: ghcr.io/${{ github.repository }}
+  IMAGE: ghcr.io/yanyanliubio/python_cicd
 
 jobs:
   lint-and-test:
